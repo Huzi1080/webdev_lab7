@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #1a1a2e;
-    color: #e0e0e0;
+    background-color: #000000; /* Changed to black */
+    color: #ffffff;
     text-align: center;
     margin: 0;
     padding: 20px;
@@ -9,51 +9,54 @@ body {
 
 h1 {
     font-size: 2em;
-    color: #ffcc00;
+    color: #ffffff;
     margin-bottom: 15px;
 }
 
+/* Table Styling */
 #planets {
     width: 80%;
     margin: auto;
     border-collapse: collapse;
-    background-color: #16213e;
+    background-color: #1a1a1a; /* Darker table background for contrast */
 }
 
 th, td {
-    border: 1px solid #0f3460;
+    border: 1px solid #ffffff;
     padding: 10px;
     text-align: center;
 }
 
 th {
-    background-color: #0f3460;
-    color: #ffcc00;
+    background-color: #333333; /* Slightly lighter gray for contrast */
+    color: #ffffff;
 }
 
+/* Alternating Row Colors */
 tr:nth-child(even) {
-    background-color: #1a1a2e;
+    background-color: #222222;
 }
 
 tr:nth-child(odd) {
-    background-color: #16213e;
+    background-color: #1a1a1a;
 }
 
-
+/* Image Styling */
 td img {
     width: 70px;
     height: auto;
     border-radius: 50%;
 }
 
+/* Highlight First Column */
 td:first-child {
     font-style: italic;
     font-weight: bold;
-    color: #ffcc00;
+    color: #ffffff;
 }
 
-
+/* Table Hover Effects */
 tr:hover {
-    background-color: #0d1b2a;
+    background-color: #444444;
 }
 
