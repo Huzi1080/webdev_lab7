@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+#planets {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #16213e;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 2px solid #0f3460;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+th {
+    background-color: #0f3460;
+    color: #ffcc00;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Alternating Row Colors */
+tr:nth-child(even) {
+    background-color: #1a1a2e;
+}
+
+tr:nth-child(odd) {
+    background-color: #16213e;
+}
+
+/* Image Styling */
+td img {
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Highlight First Column */
+td:first-child {
+    font-style: italic;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+/* Table Borders and Spacing */
+table, th, td {
+    border: 2px solid #0f3460;
+}
+
+/* Table Hover Effects */
+tr:hover {
+    background-color: #0d1b2a;
+    transition: 0.3s;
+}
