@@ -46,7 +46,7 @@ td img {
 }
 
 td:first-child {
-    font-style: Arial;
+    font-style: normal;
     font-weight: bold;
     color: #ffffff;
 }
