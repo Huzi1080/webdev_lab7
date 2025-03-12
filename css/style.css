@@ -42,11 +42,11 @@ tr:nth-child(odd) {
 td img {
     width: 70px;
     height: 70px;
-    border-radius: 0 !important;
+    border-radius: 0;
 }
 
 td:first-child {
-    font-style: italic;
+    font-style: Arial;
     font-weight: bold;
     color: #ffffff;
 }
