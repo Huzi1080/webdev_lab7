@@ -41,7 +41,7 @@ tr:nth-child(odd) {
 
 td img {
     width: 70px;
-    height: auto;
+    height: 70px;
     border-radius: 0;
 }
 
