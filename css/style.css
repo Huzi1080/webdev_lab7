@@ -42,7 +42,7 @@ tr:nth-child(odd) {
 td img {
     width: 70px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 0;
 }
 
 td:first-child {
